@@ -10,7 +10,7 @@ def get_report(book_path, number_words, number_letters):
     print(f"{number_words} words found in the document\n")
     for letter in number_letters:
         print(f"The '{letter[1]}' character was found {letter[0]} times")
-    print(F"--- End report ---")
+    print(f"--- End report ---")
 
 def dict_to_sorted_array(mydict):
     result = []
